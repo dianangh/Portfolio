@@ -69,7 +69,7 @@ const Works = () => {
 			<div className="w-full flex">
 				<motion.p
 					variants={fadeIn("", "", 0.1, 1)}
-					className="mt-4 text-secondary project-description flex flex-wrap  gap-10 object-center flex-row justify-center"
+					className="mt-4 text-secondary project-description text-[26px] flex flex-wrap  gap-10 object-center flex-row justify-center"
 				>
 					My projects showcase my journey into the world of software
 					development. Through hard work, dedication, and a willingness to
