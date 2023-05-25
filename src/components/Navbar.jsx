@@ -74,7 +74,7 @@ const Navbar = () => {
 						<img src={linkedin} alt="linkedin" className="h-7 object-cover" />
 					</Link>
 					<Link
-						to="https://docs.google.com/document/d/1gVaZata6p05PyGIaLgrRJX8CE8CGCOUbm2hbcsf6XUM/edit?usp=sharing"
+						to="https://drive.google.com/file/d/1uV0NMtU0h0RvF-fC2RRjrVY1tUgJgjDf/view?usp=sharing"
 						target="_blank"
 						rel="noopener noreferrer"
 						className="mr-2"

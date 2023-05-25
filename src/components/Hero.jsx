@@ -41,7 +41,7 @@ const Hero = () => {
 						<br />
 					</p>
 					<Link
-						to="https://docs.google.com/document/d/1gVaZata6p05PyGIaLgrRJX8CE8CGCOUbm2hbcsf6XUM/edit?usp=sharing"
+						to="https://drive.google.com/file/d/1uV0NMtU0h0RvF-fC2RRjrVY1tUgJgjDf/view?usp=sharing"
 						target="_blank"
 						rel="noopener noreferrer"
 					>
@@ -60,27 +60,26 @@ const Hero = () => {
 					/>
 				</div>
 				<div className="absolute xs:bottom-10 bottom-[-5rem] w-full flex justify-center items-center">
-				<a href="#about">
-					<div
-						className="w-[35px] h-[64px] rounded-3xl border-4 border-secondary
+					<a href="#about">
+						<div
+							className="w-[35px] h-[64px] rounded-3xl border-4 border-secondary
           flex justify-center items-start p-2"
-					>
-						<motion.div
-							animate={{
-								y: [0, 24, 0],
-							}}
-							transition={{
-								duration: 1.5,
-								repeat: Infinity,
-								repeatType: "loop",
-							}}
-							className="w-3 h-3 rounded-full bg-secondary mb-1"
-						/>
-					</div>
-				</a>
+						>
+							<motion.div
+								animate={{
+									y: [0, 24, 0],
+								}}
+								transition={{
+									duration: 1.5,
+									repeat: Infinity,
+									repeatType: "loop",
+								}}
+								className="w-3 h-3 rounded-full bg-secondary mb-1"
+							/>
+						</div>
+					</a>
+				</div>
 			</div>
-			</div>
-
 		</section>
 	);
 }

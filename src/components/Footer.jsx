@@ -15,46 +15,6 @@ const Footer = () => {
 		<div className="flex flex-wrap">
 			<footer className="w-full sticky bg-primary mt-0 mb-0">
 				<div className="flex flex-col md:flex-row md:items-center justify-center gap-y-2 bg-primary text-center md:justify-between pb-4">
-					{/* <ul className="hidden md:flex flex-wrap items-center gap-y-2 gap-x-6 mr-4">
-						<li>
-							<Link
-								as="a"
-								to="/about"
-								color="black"
-								className="font-light transition-colors text-[25px]  focus:text-orange-500 hover:text-orange-600"
-							>
-								About Us
-							</Link>
-						</li>
-						<li>
-							<Link
-								as="a"
-								to="/contact"
-								color="black"
-								className="font-light mr-5 text-[25px]transition-colors  focus:text-orange-500 hover:text-orange-600"
-							>
-								Contact Us
-							</Link>
-						</li>
-					</ul>
-					<div className="md:hidden flex flex-wrap items-center justify-center gap-y-2 gap-x-6 mb-4">
-						<Link
-							as="a"
-							to="/about"
-							color="black"
-							className="font-normal transition-colors  focus:text-orange-500 hover:text-orange-600"
-						>
-							About Us
-						</Link>
-						<Link
-							as="a"
-							to="/contact"
-							color="black"
-							className="font-normal transition-colors  focus:text-orange-500 hover:text-orange-600"
-						>
-							Contact Us
-						</Link>
-					</div> */}
 					<div className=" flex justify-between max-w-7xl mx-auto">
 						<div className="navbar-logos flex justify-center items-center">
 							<Link
@@ -86,7 +46,7 @@ const Footer = () => {
 								/>
 							</Link>
 							<Link
-								to="https://docs.google.com/document/d/1gVaZata6p05PyGIaLgrRJX8CE8CGCOUbm2hbcsf6XUM/edit?usp=sharing"
+								to="https://drive.google.com/file/d/1uV0NMtU0h0RvF-fC2RRjrVY1tUgJgjDf/view?usp=sharing"
 								target="_blank"
 								rel="noopener noreferrer"
 								className="mr-2"
