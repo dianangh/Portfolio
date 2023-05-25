@@ -4,7 +4,7 @@ import { motion } from "framer-motion";
 import { styles } from "../styles";
 import { gitlab } from "../assets";
 import { SectionWrapper } from "../hoc";
-import { projects, projectsGitlab } from "../constants";
+import { projects } from "../constants";
 import { fadeIn, textVariant } from "../utils/motion";
 
 const ProjectCard = ({
@@ -23,7 +23,7 @@ const ProjectCard = ({
 					scale: 1,
 					speed: 450,
 				}}
-				className="bg-tertiary p-5 rounded-2xl sm:w-[500px] w-full"
+				className="bg-tertiary p-5 rounded-2xl sm:w-[400px] w-full"
 			>
 				<div className="relative 2-full h-[230px]">
 					<img
@@ -82,7 +82,7 @@ const Works = () => {
 					that will make a real difference in people's lives.
 				</motion.p>
 			</div>
-			<div className="mt-20 flex flex-wrap gap-7 object-center flex-row justify-center">
+			<div className="mt-20 flex flex-wrap gap-5 object-center flex-row justify-center">
 				{projects.map((project, index) => (
 					<ProjectCard
 						key={`project-${index}`}
@@ -90,9 +90,6 @@ const Works = () => {
 						{...project}
 						className="sm:w-[400px]"
 					/>
-				))}
-				{projectsGitlab.map((gitlab, index) => (
-					<ProjectCard key={`project-${index}`} index={index} {...gitlab} />
 				))}
 			</div>
 		</>

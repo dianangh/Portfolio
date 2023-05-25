@@ -3,7 +3,6 @@ import { textVariant } from "../utils/motion";
 import { Tilt } from "react-tilt";
 
 import { styles } from "../styles";
-// import { BallCanvas } from "./canvas";
 import { SectionWrapper } from "../hoc";
 import { languagesTech, frontEndTech, backEndTech, toolsTech } from "../constants";
 import { fadeIn } from "../utils/motion";
@@ -52,18 +51,6 @@ const Tech = () => {
 					<ServiceCard key={language.name} index={index} {...language} />
 				))}
 			</div>
-			{/* <div className="flex flex-row flex-wrap justify-center mt-8 gap-10">
-				{languagesTech.map((languages) => (
-					<div className="w-28 h-28 text-center" key={languages.name}>
-						<BallCanvas
-							className="bg-tertiary rounded-[25px]
-          py-5 px-12 min-h-[230px] flex justify-evenly items-center flex-col"
-							icon={languages.icon}
-						/>
-						{languages.name}
-					</div>
-				))}
-			</div> */}
 			<h2 className="flex flex-row flex-wrap text-[1.5rem] justify-center mt-8 gap-10">
 				Frontend
 			</h2>
@@ -72,14 +59,6 @@ const Tech = () => {
 					<ServiceCard key={frontend.name} index={index} {...frontend} />
 				))}
 			</div>
-			{/* <div className="flex flex-row flex-wrap justify-center mt-8 gap-10">
-				{frontEndTech.map((frontend) => (
-					<div className="w-28 h-28 text-center" key={frontend.name}>
-						<BallCanvas icon={frontend.icon} />
-						{frontend.name}
-					</div>
-				))}
-			</div> */}
 			<h2 className="flex flex-row flex-wrap text-[1.5rem] justify-center mt-16 gap-10">
 				Backend
 			</h2>
@@ -88,14 +67,6 @@ const Tech = () => {
 					<ServiceCard key={backend.name} index={index} {...backend} />
 				))}
 			</div>
-			{/* <div className="flex flex-row flex-wrap justify-center mt-8 gap-10">
-				{backEndTech.map((backend) => (
-					<div className="w-28 h-28 text-center" key={backend.name}>
-						<BallCanvas icon={backend.icon} />
-						{backend.name}
-					</div>
-				))}
-			</div> */}
 			<h2 className="flex flex-row flex-wrap text-[1.5rem] justify-center mt-16 gap-10">
 				Tools
 			</h2>
@@ -104,14 +75,6 @@ const Tech = () => {
 					<ServiceCard key={tools.name} index={index} {...tools} />
 				))}
 			</div>
-			{/* <div className="flex flex-row flex-wrap justify-center mt-8 gap-10">
-				{toolsTech.map((tools) => (
-					<div className="w-28 h-28 text-center" key={tools.name}>
-						<BallCanvas icon={tools.icon} />
-						{tools.name}
-					</div>
-				))}
-			</div> */}
 		</>
 	);
 }

@@ -32,6 +32,7 @@ import {
 	ali,
 	abdalla,
 	adrian,
+	insomnia,
 } from "../assets";
 
 export const navLinks = [
@@ -154,6 +155,10 @@ export const toolsTech = [
 		name: "Vite",
 		icon: vite,
 	},
+	{
+		name: "Insomnia",
+		icon: insomnia,
+	},
 ];
 
 export const recommendations = [
@@ -225,7 +230,7 @@ export const projects = [
 		name: "AutoMatePro",
 		description:
 			"application designed to efficiently manage inventory, service center, and sales using the Django MVC framework. Enjoy a user-friendly experience with React components, which include features like form submission and search/filter.",
-			// "Application that helps automobile dealerships streamline their operations by offering a microservices-based solution that enables efficient inventory management, service center, and sales management. This application is designed and engineered using a Django MVC framework, which allows for creating efficient RESTful APIs for the back end. In addition, using React components on the front end resulted in a user-friendly experience, with convenient features such as form submission and search/filter components.",
+		// "Application that helps automobile dealerships streamline their operations by offering a microservices-based solution that enables efficient inventory management, service center, and sales management. This application is designed and engineered using a Django MVC framework, which allows for creating efficient RESTful APIs for the back end. In addition, using React components on the front end resulted in a user-friendly experience, with convenient features such as form submission and search/filter components.",
 		tags: [
 			{
 				name: "react",
@@ -251,7 +256,7 @@ export const projects = [
 		name: "Wardrobe Wizards",
 		description:
 			"The Wardrobe Wizards application is designed for individuals with extensive wardrobes who struggle to organize their hats and shoes. This application employs a microservices architecture and RESTful APIs to facilitate efficient communication among all its different components.",
-			// "The Wardrobe Wizards application was created specifically for those with a large wardrobe struggling to organize their hats and shoes. The application utilizes a microservices architecture and RESTful APIs, which work together seamlessly to ensure all the various components of the application communicate effectively. In addition, the application's user-friendly React front end provides an easy-to-use interface for users to navigate through their inventory, allowing them to manage their collection efficiently. Overall, the Wardrobe Wizards application is an excellent example of how technology can be used to simplify everyday tasks and make life a little bit easier.",
+		// "The Wardrobe Wizards application was created specifically for those with a large wardrobe struggling to organize their hats and shoes. The application utilizes a microservices architecture and RESTful APIs, which work together seamlessly to ensure all the various components of the application communicate effectively. In addition, the application's user-friendly React front end provides an easy-to-use interface for users to navigate through their inventory, allowing them to manage their collection efficiently. Overall, the Wardrobe Wizards application is an excellent example of how technology can be used to simplify everyday tasks and make life a little bit easier.",
 		tags: [
 			{
 				name: "react",
@@ -273,14 +278,11 @@ export const projects = [
 		image: wardrobe,
 		source_code_link: "https://gitlab.com/dangaritaho/microservice-two-shot",
 	},
-];
-
-export const projectsGitlab = [
 	{
 		name: "CaloriesPlanner",
 		description:
-		"CaloriesPlanner is an innovative food journal app designed to help you take control of your nutrition and achieve your health and fitness goals.",
-			// "CaloriesPlanner is an innovative food journal app designed to help you take control of your nutrition and achieve your health and fitness goals. With a focus on simplicity and accessibility, the app makes it easy for anyone to track their calories and stay on top of their nutrition goals, regardless of their level of expertise or experience. Whether you're looking to lose weight, gain muscle, or simply maintain a healthy lifestyle, CaloriesPlanner provides all the tools you need to succeed. With its intuitive interface and user-friendly features, the app is the perfect companion for anyone looking to improve their health and well-being. Start your journey towards better nutrition and a healthier you with CaloriesPlanner today.",
+			"CaloriesPlanner is an innovative food journal app designed to help you take control of your nutrition and achieve your health and fitness goals.",
+		// "CaloriesPlanner is an innovative food journal app designed to help you take control of your nutrition and achieve your health and fitness goals. With a focus on simplicity and accessibility, the app makes it easy for anyone to track their calories and stay on top of their nutrition goals, regardless of their level of expertise or experience. Whether you're looking to lose weight, gain muscle, or simply maintain a healthy lifestyle, CaloriesPlanner provides all the tools you need to succeed. With its intuitive interface and user-friendly features, the app is the perfect companion for anyone looking to improve their health and well-being. Start your journey towards better nutrition and a healthier you with CaloriesPlanner today.",
 		tags: [
 			{
 				name: "react",

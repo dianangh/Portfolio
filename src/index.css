@@ -273,9 +273,8 @@ h1.hero {
   font-family:  Ubuntu Mono,monospace;
 }
 
-.toggle {
-
-  margin-top: 27rem;
+.experience {
+  margin-top: 15rem;
 }
 
 @keyframes typewriter {
