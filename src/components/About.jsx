@@ -37,7 +37,7 @@ export const ServiceCard = ({ index, title, icon }) => {
 
 const About = () => {
   return (
-		<>
+		<div className='experience'>
 			<motion.div variants={textVariant()}>
 				<p className={styles.sectionSubText}>Introduction</p>
 				<h2 className={styles.sectionHeadText}>Experience</h2>
@@ -45,7 +45,7 @@ const About = () => {
 
 			<motion.p
 				variants={fadeIn("", "", 0.1, 1)}
-				className="mt-4 text-secondary flex flex-wrap text-[26px] gap-10 object-center flex-row justify-center"
+				className="xs:mt-10 mt-4 lg:mt-4 text-secondary flex flex-wrap text-[26px] gap-10 object-center flex-row justify-center"
 			>
 				I have experience developing full-stack software applications using
 				popular programming languages such as JavaScript, and Python, and
@@ -63,7 +63,7 @@ const About = () => {
 					<ServiceCard key={service.title} index={index} {...service} />
 				))}
 			</div>
-		</>
+		</div>
 	);
 }
 
