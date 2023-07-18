@@ -2,7 +2,6 @@ import { Tilt } from "react-tilt";
 import { motion } from "framer-motion";
 
 import { styles } from "../styles";
-import { gitlab } from "../assets";
 import { SectionWrapper } from "../hoc";
 import { projects } from "../constants";
 import { fadeIn, textVariant } from "../utils/motion";
@@ -37,8 +36,8 @@ const ProjectCard = ({
 							className="black-gradient w-8 h-8 rounded-full flex justify-center items-center cursor-pointer"
 						>
 							<img
-								src={gitlab}
-								alt="github"
+								src="https://i.imgur.com/10FXHxv.png"
+								alt="gitlab"
 								className="w-1/7 h-1/7 object-contain"
 							/>
 						</div>

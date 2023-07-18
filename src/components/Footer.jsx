@@ -2,10 +2,8 @@ import React, { useState } from "react";
 import { Link } from "react-router-dom";
 
 import { navLinks } from "../constants/index";
-import { logo, menu, close } from "../assets";
-import { linkedin } from "../assets";
-import { github, gitlab } from "../assets";
-import { resumeimg } from "../assets";
+import { menu, close } from "../assets";
+
 
 const Footer = () => {
 	const [active, setActive] = useState("");
@@ -23,7 +21,11 @@ const Footer = () => {
 								rel="noopener noreferrer"
 								className="mr-2"
 							>
-								<img src={gitlab} alt="gitlab" className="h-9" />
+								<img
+									src="https://i.imgur.com/10FXHxv.png"
+									alt="gitlab"
+									className="h-9"
+								/>
 							</Link>
 							<Link
 								to="https://github.com/dianangh"
@@ -31,7 +33,11 @@ const Footer = () => {
 								rel="noopener noreferrer"
 								className="mr-2 items-center"
 							>
-								<img src={github} alt="github" className="h-9 object-cover" />
+								<img
+									src="https://i.imgur.com/MhhxPgL.png"
+									alt="github"
+									className="h-9 object-cover"
+								/>
 							</Link>
 							<Link
 								to="https://www.linkedin.com/in/diana-angaritah/"
@@ -40,7 +46,7 @@ const Footer = () => {
 								className="mr-2"
 							>
 								<img
-									src={linkedin}
+									src="https://i.imgur.com/szbCVy0.png"
 									alt="linkedin"
 									className="h-7 object-cover"
 								/>
@@ -52,7 +58,7 @@ const Footer = () => {
 								className="mr-2"
 							>
 								<img
-									src={resumeimg}
+									src="https://i.imgur.com/bFTNNHf.png"
 									alt="resume-img"
 									className="h-7 object-cover"
 								/>

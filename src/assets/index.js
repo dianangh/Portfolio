@@ -1,4 +1,4 @@
-import logo from "./logo.png";
+
 import backend from "./backend.png";
 import creator from "./creator.png";
 import mobile from "./mobile.png";
@@ -8,9 +8,6 @@ import backend1 from "./backend1.png";
 import frontend from "./frontend.png";
 import menu from "./menu.svg";
 import close from "./close.svg";
-import avatar from "./avatar.jpg";
-import linkedin from "./linkedin.png";
-import resumeimg from "./resumeimg.png"
 
 import css from "./tech/css.png";
 import docker from "./tech/docker.png";
@@ -36,9 +33,6 @@ import vite from "./tech/vite.png";
 import mysql from "./tech/mysql.png";
 import react from "./tech/react.png";
 
-import github from "./github.png";
-import gitlab from "./gitlab.png";
-
 import automatepro from "./automatepro.png";
 import wardrobe from "./wardrobe.png";
 import caloriesplanner from "./caloriesplanner.png";
@@ -55,7 +49,6 @@ import adrian from "../assets/linkedin/adrian.gif";
 
 
 export {
-  logo,
   backend,
   creator,
   mobile,
@@ -88,12 +81,8 @@ export {
   automatepro,
   wardrobe,
   avatar,
-  linkedin,
   caloriesplanner,
-  resumeimg,
   git,
-  github,
-  gitlab,
   vite,
   mysql,
   emily,
