@@ -1,8 +1,5 @@
 import {
-	automatepro,
 	threejs,
-	wardrobe,
-	caloriesplanner,
 } from "../assets";
 
 export const navLinks = [
@@ -223,7 +220,7 @@ export const projects = [
 				color: "orange-text-gradient",
 			},
 		],
-		image: automatepro,
+		image: "https://i.imgur.com/6qJNshx.jpg",
 		source_code_link: "https://gitlab.com/dangaritaho/project-beta",
 	},
 	{
@@ -249,7 +246,7 @@ export const projects = [
 				color: "green-text-gradient",
 			},
 		],
-		image: wardrobe,
+		image: "https://i.imgur.com/ti7yvG6.png",
 		source_code_link: "https://gitlab.com/dangaritaho/microservice-two-shot",
 	},
 	{
@@ -283,7 +280,7 @@ export const projects = [
 				color: "blue-text-gradient",
 			},
 		],
-		image: caloriesplanner,
+		image: "https://i.imgur.com/jxshowD.jpg",
 		source_code_link: "https://gitlab.com/dangaritaho/module3-project-gamma",
 	},
 ];
