@@ -52,7 +52,7 @@ const Footer = () => {
 								/>
 							</Link>
 							<Link
-								to="https://drive.google.com/file/d/1uV0NMtU0h0RvF-fC2RRjrVY1tUgJgjDf/view?usp=sharing"
+								to="https://drive.google.com/file/d/1WQZYAOvoL5QR26wKMOmKO8xxFEvA-gjX/view?usp=sharing"
 								target="_blank"
 								rel="noopener noreferrer"
 								className="mr-2"

@@ -3,6 +3,7 @@ import { Link } from 'react-router-dom';
 
 import { styles } from '../styles';
 import { SectionWrapper } from "../hoc";
+import Resume from "../assets/Resume.pdf";
 
 const Hero = () => {
   return (
@@ -40,8 +41,8 @@ const Hero = () => {
 							<br />
 							<br />
 						</p>
-						<Link
-							to="https://drive.google.com/file/d/1uV0NMtU0h0RvF-fC2RRjrVY1tUgJgjDf/view?usp=sharing"
+						<a
+							href={Resume} download="Resume"
 							target="_blank"
 							rel="noopener noreferrer"
 						>
@@ -50,7 +51,7 @@ const Hero = () => {
 									Resume
 								</span>
 							</button>
-						</Link>
+						</a>
 					</div>
 					<div className="flex flex-col justify-left items-left mt-5 mr-[-10%]">
 						<img

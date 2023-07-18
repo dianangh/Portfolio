@@ -26,7 +26,11 @@ const Navbar = () => {
 						window.scrollTo(0, 0);
 					}}
 				>
-					<img src="https://i.imgur.com/MGNaqx5.png" alt="logo" className="w-12 h-12 object-contain" />
+					<img
+						src="https://i.imgur.com/MGNaqx5.png"
+						alt="logo"
+						className="w-12 h-12 object-contain"
+					/>
 					<p className="text-white text-[18px] font-bold cursor-pointer w-full flex">
 						<span className="sm:block hidden flex">Full-stack Developer</span>
 					</p>
@@ -52,7 +56,11 @@ const Navbar = () => {
 						rel="noopener noreferrer"
 						className="mr-2"
 					>
-						<img src="https://i.imgur.com/10FXHxv.png" alt="gitlab" className="h-9" />
+						<img
+							src="https://i.imgur.com/10FXHxv.png"
+							alt="gitlab"
+							className="h-9"
+						/>
 					</Link>
 					<Link
 						to="https://github.com/dianangh"
@@ -60,7 +68,11 @@ const Navbar = () => {
 						rel="noopener noreferrer"
 						className="mr-2 items-center"
 					>
-						<img src="https://i.imgur.com/MhhxPgL.png" alt="github" className="h-9 object-cover" />
+						<img
+							src="https://i.imgur.com/MhhxPgL.png"
+							alt="github"
+							className="h-9 object-cover"
+						/>
 					</Link>
 					<Link
 						to="https://www.linkedin.com/in/diana-angaritah/"
@@ -68,10 +80,14 @@ const Navbar = () => {
 						rel="noopener noreferrer"
 						className="mr-2"
 					>
-						<img src="https://i.imgur.com/szbCVy0.png" alt="linkedin" className="h-7 object-cover" />
+						<img
+							src="https://i.imgur.com/szbCVy0.png"
+							alt="linkedin"
+							className="h-7 object-cover"
+						/>
 					</Link>
 					<Link
-						to="https://drive.google.com/file/d/1uV0NMtU0h0RvF-fC2RRjrVY1tUgJgjDf/view?usp=sharing"
+						to="https://drive.google.com/file/d/1WQZYAOvoL5QR26wKMOmKO8xxFEvA-gjX/view?usp=sharing"
 						target="_blank"
 						rel="noopener noreferrer"
 						className="mr-2"
