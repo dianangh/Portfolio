@@ -1,38 +1,8 @@
 import {
-	developer,
-	backend1,
-	frontend,
-	javascript,
-	python,
-	html,
-	css,
-	reactjs,
-	fastapi,
-	postgresql,
-	redux,
-	tailwind,
-	bootstrap,
-	mongodb,
-	docker,
-	django,
 	automatepro,
 	threejs,
 	wardrobe,
 	caloriesplanner,
-	git,
-	sqlite3,
-	vite,
-	mysql,
-	emily,
-	mico,
-	paula,
-	shaun,
-	sophia,
-	brian,
-	ali,
-	abdalla,
-	adrian,
-	insomnia,
 } from "../assets";
 
 export const navLinks = [
@@ -61,53 +31,57 @@ export const navLinks = [
 export const services = [
 	{
 		title: "Full-Stack Web Developer",
-		icon: developer,
+		icon: "https://i.imgur.com/fO6OxyM.png",
 	},
 	{
 		title: "Frontend Developer",
-		icon: frontend,
+		icon: "https://i.imgur.com/PR2kPat.png",
 	},
 	{
 		title: "Backend Developer",
-		icon: backend1,
+		icon: "https://i.imgur.com/2wxPBbJ.png",
 	},
 ];
 
 export const languagesTech = [
 	{
 		name: "HTML",
-		icon: html,
+		icon: "https://i.imgur.com/oJdEsNE.png",
 	},
 	{
 		name: "CSS",
-		icon: css,
+		icon: "https://i.imgur.com/N5HtXpO.png",
 	},
 	{
 		name: "JavaScript",
-		icon: javascript,
+		icon: "https://i.imgur.com/7aihw2J.png",
 	},
 	{
 		name: "Python",
-		icon: python,
+		icon: "https://i.imgur.com/xxF5zeI.png",
+	},
+	{
+		name: "TypeScript",
+		icon: "https://i.imgur.com/zH9Pv0z.png",
 	},
 ];
 
 export const frontEndTech = [
 	{
 		name: "React",
-		icon: reactjs,
+		icon: "https://i.imgur.com/TsRvG48.png",
 	},
 	{
 		name: "Redux",
-		icon: redux,
+		icon: "https://i.imgur.com/PVNMQ5x.png",
 	},
 	{
 		name: "Tailwind",
-		icon: tailwind,
+		icon: "https://i.imgur.com/qa5RceD.png",
 	},
 	{
 		name: "Bootstrap",
-		icon: bootstrap,
+		icon: "https://i.imgur.com/s03SOtU.png",
 	},
 	{
 		name: "Three",
@@ -118,74 +92,74 @@ export const frontEndTech = [
 export const backEndTech = [
 	{
 		name: "Django",
-		icon: django,
+		icon: "https://i.imgur.com/R0Dpxlp.png",
 	},
 	{
 		name: "FastAPI",
-		icon: fastapi,
+		icon: "https://i.imgur.com/pYP0cSS.png",
 	},
 	{
 		name: "MongoDB",
-		icon: mongodb,
+		icon: "https://i.imgur.com/8jIkp3b.png",
 	},
 	{
 		name: "MySql",
-		icon: mysql,
+		icon: "https://i.imgur.com/ihOzvoV.png",
 	},
 	{
 		name: "SQLite3",
-		icon: sqlite3,
+		icon: "https://i.imgur.com/A1MjLvU.png",
 	},
 	{
 		name: "PostgreSQL",
-		icon: postgresql,
+		icon: "https://i.imgur.com/KBy7h81.png",
 	},
 ];
 
 export const toolsTech = [
 	{
 		name: "Git",
-		icon: git,
+		icon: "https://i.imgur.com/LhrSw7v.png",
 	},
 	{
 		name: "Docker",
-		icon: docker,
+		icon: "https://i.imgur.com/120MBKY.png",
 	},
 	{
 		name: "Vite",
-		icon: vite,
+		icon: "https://i.imgur.com/aWDdCwE.png",
 	},
 	{
 		name: "Insomnia",
-		icon: insomnia,
+		icon: "https://i.imgur.com/qxJKksE.png",
 	},
 ];
 
-export const recommendations = [
-	{
-		recommendation:
-			"Diana and I were able to work together on one of our paired projects during Hack Reactor's Software Immersive program, and I felt very lucky to get to collaborate with Diana. Diana has a great work ethic and is calm but persistent when debugging and problem-solving. She is quite organized with great time management skills that help keep her team members on track with completing tasks and meeting deadlines. Diana's exceptional communication skills and positive attitude make her a pleasure to work with, especially in the face of challenges. I have no doubt that Diana will continue to excel in her journey as a software engineer. Any team would be lucky to have Diana as a member.",
-		name: "Emily Arai",
-		designation: "Software Engineer",
-		image: "../assets/linkedin/emily.jpeg",
-		linkedin: "https://www.linkedin.com/in/emily-arai/",
-	},
-	{
-		recommendation:
-			"Diana is an asset to any team. She is smart, curious, and humble which makes her able to always learn from others without any ego. She is also incredibly generous and patient to teach and share any knowledge and resources she can provide others. She is a tenacious problem solver, with a keen eye for spotting a bug. It has been such a pleasure working alongside her. She is kind, driven, and incredibly hard-working. She inspires me to do my best work every day.",
-		name: "Paula Mejia",
-		designation: "Full Stack Software Engineer",
-		image: {paula},
-		linkedin: "https://www.linkedin.com/in/paula-natalia-mejia/",
-	},
-	{
-		recommendation:
-			"During our time together at Hack Reactor's Software Engineering Immersive program, I witnessed first-hand her fervor for improving herself by relentlessly tackling new concepts and technologies with confidence. Her ability to always find new and interesting questions about the topics at hand demonstrates her creative thinking and her capacity to grow. As a collaborator, she always finds time to share useful and unique resources that benefits the entire group. She's responsible with her time and priorities, and always aims to deliver the highest quality work. I have zero doubts that any future team she joins will be grateful for what she brings to the table.",
-		name: "Shaun Ragasa",
-		designation: "Full Stack Software Engineer",
-		image: {shaun},
-		linkedin: "https://www.linkedin.com/in/shaunragasa/",
-	},
+// export const recommendations = [
+// 	{
+// 		recommendation:
+// 			"Diana and I were able to work together on one of our paired projects during Hack Reactor's Software Immersive program, and I felt very lucky to get to collaborate with Diana. Diana has a great work ethic and is calm but persistent when debugging and problem-solving. She is quite organized with great time management skills that help keep her team members on track with completing tasks and meeting deadlines. Diana's exceptional communication skills and positive attitude make her a pleasure to work with, especially in the face of challenges. I have no doubt that Diana will continue to excel in her journey as a software engineer. Any team would be lucky to have Diana as a member.",
+// 		name: "Emily Arai",
+// 		designation: "Software Engineer",
+// 		image: "https://i.imgur.com/wP6myeY.jpg",
+// 		linkedin: "https://www.linkedin.com/in/emily-arai/",
+// 	},
+// 	{
+// 		recommendation:
+// 			"Diana is an asset to any team. She is smart, curious, and humble which makes her able to always learn from others without any ego. She is also incredibly generous and patient to teach and share any knowledge and resources she can provide others. She is a tenacious problem solver, with a keen eye for spotting a bug. It has been such a pleasure working alongside her. She is kind, driven, and incredibly hard-working. She inspires me to do my best work every day.",
+// 		name: "Paula Mejia",
+// 		designation: "Full Stack Software Engineer",
+// 		image: "https://i.imgur.com/uVakmCu.jpg",
+// 		linkedin: "https://www.linkedin.com/in/paula-natalia-mejia/",
+// 	},
+// 	{
+// 		recommendation:
+// 			"During our time together at Hack Reactor's Software Engineering Immersive program, I witnessed first-hand her fervor for improving herself by relentlessly tackling new concepts and technologies with confidence. Her ability to always find new and interesting questions about the topics at hand demonstrates her creative thinking and her capacity to grow. As a collaborator, she always finds time to share useful and unique resources that benefits the entire group. She's responsible with her time and priorities, and always aims to deliver the highest quality work. I have zero doubts that any future team she joins will be grateful for what she brings to the table.",
+// 		name: "Shaun Ragasa",
+// 		designation: "Full Stack Software Engineer",
+// 		image: "",
+// 		linkedin: "https://www.linkedin.com/in/shaunragasa/",
+// 	},
 	// {
 	// 	recommendation:
 	// 		"I had the pleasure of working with Diana on a full-stack web application during our time at Hack Reactor. She was a good communicator and a great problem-solver when it came to debugging code. Her collaboration skills and attention to detail were invaluable. Diana is always willing to go above and beyond to ensure the success of a project. She always maintained a cheerful attitude and a strong work ethic. Diana will be more than capable of completing any project or job she is considering.",
@@ -222,7 +196,7 @@ export const recommendations = [
 	// 		"https://media.licdn.com/dms/image/D5603AQGrRHkJ4zMv5w/profile-displayphoto-shrink_200_200/0/1676561240240?e=1688601600&v=beta&t=7g-5EylC7WjgjxzFn8ZCllD9QTh0KTyooI1YTlL6x2w",
 	// 	linkedin: "https://www.linkedin.com/in/malibhatti/",
 	// },
-];
+// ];
 
 
 export const projects = [

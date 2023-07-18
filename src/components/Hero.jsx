@@ -3,7 +3,6 @@ import { Link } from 'react-router-dom';
 
 import { styles } from '../styles';
 import { SectionWrapper } from "../hoc";
-import { avatar } from '../assets';
 
 const Hero = () => {
   return (
@@ -55,8 +54,8 @@ const Hero = () => {
 					</div>
 					<div className="flex flex-col justify-left items-left mt-5 mr-[-10%]">
 						<img
-							src={avatar}
-							alt="avatar"
+							src="https://i.imgur.com/WiFegtQ.jpg"
+							alt="Diana's photo"
 							className="w-[130rem] h-[35rem] object-cover rounded-full"
 						/>
 					</div>

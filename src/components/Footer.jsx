@@ -103,7 +103,7 @@ const Footer = () => {
 						color="black"
 						className="mx-auto text-center text-[20px] md:justify-between font-light items-center mb-4"
 					>
-						&copy; 2023 Diana Angarita™. All rights reserved.
+						&copy; 2023 Diana Angarita. All rights reserved.
 					</div>
 				</div>
 			</footer>

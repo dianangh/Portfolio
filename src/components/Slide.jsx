@@ -4,19 +4,8 @@ import { Link } from "react-router-dom";
 
 import { styles } from "../styles";
 import { SectionWrapper } from "../hoc";
-import { fadeIn, textVariant } from "../utils/motion";
-import { recommendations } from "../constants";
-import {
-	emily,
-	mico,
-	paula,
-	shaun,
-	sophia,
-	brian,
-	ali,
-	abdalla,
-	adrian,
-} from "../assets";
+import { textVariant } from "../utils/motion";
+
 
 const Feedbacks = () => {
 	return (
@@ -70,7 +59,7 @@ const Feedbacks = () => {
 								rel="noopener noreferrer"
 							>
 								<img
-									src={emily}
+									src="https://i.imgur.com/wP6myeY.jpg"
 									alt="feedback-by-Emily"
 									className="w-14 h-14 rounded-full object-cover"
 								/>
@@ -113,7 +102,7 @@ const Feedbacks = () => {
 								rel="noopener noreferrer"
 							>
 								<img
-									src={paula}
+									src="https://i.imgur.com/uVakmCu.jpg"
 									alt="feedback-by-Paula"
 									className="w-14 h-14 rounded-full object-cover"
 								/>
@@ -159,7 +148,7 @@ const Feedbacks = () => {
 								rel="noopener noreferrer"
 							>
 								<img
-									src={shaun}
+									src="https://i.imgur.com/wvcAnjV.jpg"
 									alt="feedback-by-Shaun"
 									className="w-14 h-14 rounded-full object-cover"
 								/>
@@ -205,7 +194,7 @@ const Feedbacks = () => {
 								rel="noopener noreferrer"
 							>
 								<img
-									src={ali}
+									src="https://i.imgur.com/2Vsrs14.jpg"
 									alt="feedback-by-Emily"
 									className="w-10 h-10 rounded-full object-cover"
 								/>
@@ -258,7 +247,7 @@ const Feedbacks = () => {
 								rel="noopener noreferrer"
 							>
 								<img
-									src={brian}
+									src="https://i.imgur.com/urhDvqL.jpg"
 									alt="feedback-by-Brian"
 									className="w-10 h-10 rounded-full object-cover"
 								/>
@@ -309,7 +298,7 @@ const Feedbacks = () => {
 								rel="noopener noreferrer"
 							>
 								<img
-									src={abdalla}
+									src="https://i.imgur.com/vR7X01N.jpg"
 									alt="feedback-by-Abdalla"
 									className="w-10 h-10 rounded-full object-cover"
 								/>
