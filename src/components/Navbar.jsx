@@ -4,6 +4,7 @@ import { styles } from "../styles";
 
 import { navLinks } from "../constants/index";
 import { menu, close } from "../assets";
+import Resume from "../assets/Resume.pdf";
 
 const Navbar = () => {
 	const [active, setActive] = useState("");
@@ -86,8 +87,9 @@ const Navbar = () => {
 							className="h-7 object-cover"
 						/>
 					</Link>
-					<Link
-						to="https://drive.google.com/file/d/1WQZYAOvoL5QR26wKMOmKO8xxFEvA-gjX/view?usp=sharing"
+					<a
+						href={Resume}
+						download="Resume"
 						target="_blank"
 						rel="noopener noreferrer"
 						className="mr-2"
@@ -97,13 +99,13 @@ const Navbar = () => {
 							alt="resume-img"
 							className="h-7 object-cover"
 						/>
-					</Link>
+					</a>
 					<div className="sm:hidden flex flex-1 justify-end items-center">
 						<img
 							src={toggle ? close : menu}
 							alt="menu"
 							className="w-[28px] h-[28px]
-              object-contain cursor-pointer"
+            object-contain cursor-pointer"
 							onClick={() => setToggle(!toggle)}
 						/>
 					</div>

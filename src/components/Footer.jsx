@@ -3,6 +3,7 @@ import { Link } from "react-router-dom";
 
 import { navLinks } from "../constants/index";
 import { menu, close } from "../assets";
+import Resume from "../assets/Resume.pdf";
 
 
 const Footer = () => {
@@ -51,8 +52,9 @@ const Footer = () => {
 									className="h-7 object-cover"
 								/>
 							</Link>
-							<Link
-								to="https://drive.google.com/file/d/1WQZYAOvoL5QR26wKMOmKO8xxFEvA-gjX/view?usp=sharing"
+							<a
+								href={Resume}
+								download="Resume"
 								target="_blank"
 								rel="noopener noreferrer"
 								className="mr-2"
@@ -62,7 +64,7 @@ const Footer = () => {
 									alt="resume-img"
 									className="h-7 object-cover"
 								/>
-							</Link>
+							</a>
 							<div className="sm:hidden flex flex-1 justify-end items-center">
 								<img
 									src={toggle ? close : menu}
