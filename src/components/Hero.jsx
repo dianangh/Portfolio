@@ -1,6 +1,3 @@
-import { motion } from 'framer-motion';
-import { Link } from 'react-router-dom';
-
 import { styles } from '../styles';
 import { SectionWrapper } from "../hoc";
 import Resume from "../assets/Resume.pdf";
@@ -8,7 +5,7 @@ import Resume from "../assets/Resume.pdf";
 const Hero = () => {
   return (
 		<div>
-			<section className="relative w-full h-screen mx-auto">
+			<section className="relative ml-14 w-full h-screen mx-auto">
 				<div
 					className={`${styles.paddingX} absolute inset-0 top-[120px] max-w-7xl
       mx-auto flex flex-row items-start gap-5`}
@@ -66,4 +63,4 @@ const Hero = () => {
 	);
 }
 
-export default SectionWrapper(Hero, '');
+export default SectionWrapper(Hero, 'hero');
