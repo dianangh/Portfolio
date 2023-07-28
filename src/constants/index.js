@@ -198,6 +198,69 @@ export const toolsTech = [
 
 export const projects = [
 	{
+		name: "Move NETwork International",
+		description:
+			"CaloriesPlanner is an innovative food journal app designed to help you take control of your nutrition and achieve your health and fitness goals.",
+		tags: [
+			{
+				name: "vite",
+				color: "blue-text-gradient",
+			},
+			{
+				name: "TypeScript",
+				color: "green-text-gradient",
+			},
+			{
+				name: "css",
+				color: "pink-text-gradient",
+			},
+			{
+				name: "tailwind",
+				color: "green-text-gradient",
+			},
+			{
+				name: "Docker",
+				color: "blue-text-gradient",
+			},
+		],
+		image: "https://i.imgur.com/2hMWodO.jpg",
+		source_code_link: "https://www.moveinternational.org/",
+	},
+	{
+		name: "CaloriesPlanner",
+		description:
+			"CaloriesPlanner is an innovative food journal app designed to help you take control of your nutrition and achieve your health and fitness goals.",
+		// "CaloriesPlanner is an innovative food journal app designed to help you take control of your nutrition and achieve your health and fitness goals. With a focus on simplicity and accessibility, the app makes it easy for anyone to track their calories and stay on top of their nutrition goals, regardless of their level of expertise or experience. Whether you're looking to lose weight, gain muscle, or simply maintain a healthy lifestyle, CaloriesPlanner provides all the tools you need to succeed. With its intuitive interface and user-friendly features, the app is the perfect companion for anyone looking to improve their health and well-being. Start your journey towards better nutrition and a healthier you with CaloriesPlanner today.",
+		tags: [
+			{
+				name: "react",
+				color: "blue-text-gradient",
+			},
+			{
+				name: "RESTapi",
+				color: "green-text-gradient",
+			},
+			{
+				name: "css",
+				color: "pink-text-gradient",
+			},
+			{
+				name: "tailwind",
+				color: "green-text-gradient",
+			},
+			{
+				name: "mongodb",
+				color: "orange-text-gradient",
+			},
+			{
+				name: "redux toolkit",
+				color: "blue-text-gradient",
+			},
+		],
+		image: "https://i.imgur.com/jxshowD.jpg",
+		source_code_link: "https://gitlab.com/dangaritaho/module3-project-gamma",
+	},
+	{
 		name: "AutoMatePro",
 		description:
 			"application designed to efficiently manage inventory, service center, and sales using the Django MVC framework. Enjoy a user-friendly experience with React components, which include features like form submission and search/filter.",
@@ -248,39 +311,5 @@ export const projects = [
 		],
 		image: "https://i.imgur.com/ti7yvG6.png",
 		source_code_link: "https://gitlab.com/dangaritaho/microservice-two-shot",
-	},
-	{
-		name: "CaloriesPlanner",
-		description:
-			"CaloriesPlanner is an innovative food journal app designed to help you take control of your nutrition and achieve your health and fitness goals.",
-		// "CaloriesPlanner is an innovative food journal app designed to help you take control of your nutrition and achieve your health and fitness goals. With a focus on simplicity and accessibility, the app makes it easy for anyone to track their calories and stay on top of their nutrition goals, regardless of their level of expertise or experience. Whether you're looking to lose weight, gain muscle, or simply maintain a healthy lifestyle, CaloriesPlanner provides all the tools you need to succeed. With its intuitive interface and user-friendly features, the app is the perfect companion for anyone looking to improve their health and well-being. Start your journey towards better nutrition and a healthier you with CaloriesPlanner today.",
-		tags: [
-			{
-				name: "react",
-				color: "blue-text-gradient",
-			},
-			{
-				name: "RESTapi",
-				color: "green-text-gradient",
-			},
-			{
-				name: "css",
-				color: "pink-text-gradient",
-			},
-			{
-				name: "tailwind",
-				color: "green-text-gradient",
-			},
-			{
-				name: "mongodb",
-				color: "orange-text-gradient",
-			},
-			{
-				name: "redux toolkit",
-				color: "blue-text-gradient",
-			},
-		],
-		image: "https://i.imgur.com/jxshowD.jpg",
-		source_code_link: "https://gitlab.com/dangaritaho/module3-project-gamma",
 	},
 ];
