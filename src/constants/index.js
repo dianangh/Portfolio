@@ -200,7 +200,7 @@ export const projects = [
 	{
 		name: "Move NETwork International",
 		description:
-			"CaloriesPlanner is an innovative food journal app designed to help you take control of your nutrition and achieve your health and fitness goals.",
+			"Move NETwork International is a non-profit based in Kampala, Uganda that works to support teenage mothers & young women.",
 		tags: [
 			{
 				name: "vite",
